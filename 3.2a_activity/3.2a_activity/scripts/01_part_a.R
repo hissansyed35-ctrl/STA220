@@ -165,17 +165,7 @@ ggplot(answered, aes(y = county, fill = state_plan)) +
   labs(x = "Proportion of towns", y = "County", fill = "State plan?")
 
 
-# A8. A third variable as color: inside aes() or outside? And the mistake. ----------------
-
-ggplot(near, aes(x = mean_commute_min, y = median_rent, colour = county)) +
-  geom_point(size = 2)
-
-ggplot(near, aes(x = mean_commute_min, y = median_rent)) +
-  geom_point(size = 2, colour = "darkgreen")
-
-ggplot(near, aes(x = mean_commute_min, y = median_rent, colour = "darkgreen")) +
-  geom_point(size = 2)
-
+ 
 
 # A9. Small multiples: facet_wrap(), fixed and free scales --------------------------------
 # One panel per Mercer town, the tax bill over nine years
