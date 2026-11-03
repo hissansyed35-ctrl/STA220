@@ -110,7 +110,7 @@ summary(bike_crashes)
 #   1. Check that you loaded the data by running the script above!
 #   2. Highlight a word and other matching will e highlighted. 
 #   3. Run your code one step at a time (or one pipe at a time)
-#   5. A few examples need more than a name swap:
+#   5. A few examples need some hints:
 #        Example 3    the streets are short, so try binwidth = 0.25
 #        Example 7    use the bike rate in The Key (crashes per 100,000 bike trips)
 #        Example 8    there is no bike speed: use car_speed_mph (keep geom_hline()), or
